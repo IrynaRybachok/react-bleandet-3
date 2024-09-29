@@ -6,6 +6,7 @@ export const Home = () => {
   const [countries, setCountries] = useState([]);
   const [isError, setIsError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
